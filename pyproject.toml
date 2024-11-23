@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aula17-1"
+version = "0.1.0"
+description = ""
+authors = ["Fasri <felipear@gmail.com>"]
+readme = "README.md"
+packages = [{include = "aula17"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
